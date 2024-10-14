@@ -1,0 +1,52 @@
+<htnl>
+    <head>
+        <title>
+            my html
+        </title>
+        <style>
+            h1{
+                text-align: center;
+                background-color: burlywood;
+                font-style: normal;
+                font-size: 40px;
+            }
+            .bg-2{
+                background-color: cornsilk;
+                text-align: center;
+            }
+            table{
+                background-color: aqua;
+                font-size: 10px;
+                text-align: center;
+            }
+            footer{
+                background-color: rgb(155, 170, 170);
+                text-align: center;
+                font-size: 20px;
+                font-style: italic;
+                margin-top: 600px;;
+            }
+        </style>
+    </head>
+    <body>
+      <center>  <h1>SIGN UP PAGE</h1></center>
+      {%csrf_token%}
+      <div class="container bg-2">
+      <table border="20px" width="20px" align="center"> 
+      <form action="http://127.0.0.1:8000/fsave/" method="post">     
+      <tr><th>USERNAME<input type="text" name="USERNAME"></th>
+      <br>
+      <tr>
+     <th>EMAIL<input type="text" name="EMAIL"></th></tr>
+      <br><tr>
+    <th> PASSWORD <input type="text" name="PASSWORD"></th>
+     <br>
+     <td><input type="submit"></td></tr> 
+      </div>
+      </form></table>
+    </body>
+    <footer>
+    <p> Copyright all right reserved</p>
+    <a>sooraj6446@gmail.com</a>
+    </footer>
+</htnl>
